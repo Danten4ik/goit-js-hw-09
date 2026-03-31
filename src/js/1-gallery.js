@@ -85,10 +85,3 @@ const lightbox = new SimpleLightbox('.gallery a', {
 });
 
 
-
-lightbox.on('show.simplelightbox', function () {
-  console.log('Lightbox opened');
-});
-lightbox.on('close.simplelightbox', function () {
-  console.log('Lightbox closed');
-});
