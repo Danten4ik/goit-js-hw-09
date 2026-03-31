@@ -6,7 +6,10 @@ h5,
 h6,
 p {
   margin: 0;
-  padding: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
 }
 
 ul {
@@ -22,15 +25,10 @@ a {
 
 button {
   cursor: pointer;
-  display: block;
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
-}
-
-address {
-  font-style: normal;
 }
